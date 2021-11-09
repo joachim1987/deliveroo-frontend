@@ -1,0 +1,24 @@
+.restaurant h1 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.restaurant p {
+  font-size: 18px;
+  width: 55%;
+  line-height: 30px;
+}
+
+img {
+  width: 350px;
+  height: 200px;
+  margin-top: 60px;
+}
+
+.pain {
+  margin-left: 800px;
+  margin-top: 60px;
+}
+
+.menus {
+}

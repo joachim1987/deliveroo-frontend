@@ -3,22 +3,54 @@
   font-size: 30px;
 }
 
-.restaurant p {
-  font-size: 18px;
-  width: 55%;
+.textresto {
+  font-size: 24px;
+  width: 820px;
   line-height: 30px;
 }
 
-img {
+.blocresto img {
   width: 350px;
   height: 200px;
-  margin-top: 60px;
+  margin-left: 120px;
+  margin-right: 20px;
 }
 
-.pain {
-  margin-left: 800px;
-  margin-top: 60px;
+.blocresto {
+  display: flex;
+  flex-direction: row;
 }
 
 .menus {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  width: 400px;
+  margin-left: 0px;
+  margin-right: 100px;
+  margin-top: 0px;
+  flex-shrink: 1;
+}
+.namemenu {
+  width: 355px;
+  height: 25px;
+}
+
+.menudetails {
+  display: flex;
+  flex-direction: row;
+}
+
+.Carte {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.panier {
+  width: 200px;
+  margin-left: 80px;
+}
+
+.typeplats {
+  width: 850px;
 }

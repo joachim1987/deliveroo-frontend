@@ -2,11 +2,12 @@ import Menus from './Menus'
 
 const Catégorie = ({ category }) => {
   return (
-    <div>
-      <h2>{category.name}</h2>
+    <div className="Carte">
+      <h2 className="typeplats">{category.name}</h2>
       {category.meals.map((meal, index) => {
-        return <Menus className="menus" meal={meal} key={meal.id} />
+        return <Menus meal={meal} key={meal.id} />
       })}
+      <div className="panier">panier</div>
     </div>
   )
 }
